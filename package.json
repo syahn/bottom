@@ -1,0 +1,14 @@
+{
+  "name": "bottom",
+  "version": "1.0.0",
+  "main": "bottom.js",
+  "repository": "git@github.com:syahn/bottom.git",
+  "author": "sangyoung.an <sangyoung.an@worksmobile.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
