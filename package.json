@@ -1,14 +1,27 @@
 {
-  "name": "bottom",
-  "version": "1.0.0",
-  "main": "bottom.js",
-  "repository": "git@github.com:syahn/bottom.git",
-  "author": "sangyoung.an <sangyoung.an@worksmobile.com>",
-  "license": "MIT",
-  "scripts": {
-    "test": "jest"
-  },
-  "devDependencies": {
-    "jest": "^22.1.4"
-  }
+    "name": "bottom",
+    "version": "1.0.0",
+    "main": "bottom.js",
+    "repository": "git@github.com:syahn/bottom.git",
+    "author": "sangyoung.an <sangyoung.an@worksmobile.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-jest": "^22.1.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.1",
+        "jest": "^22.1.4",
+        "regenerator-runtime": "^0.11.1",
+        "webpack": "^3.10.0"
+    },
+    "dependencies": {},
+    "jest": {
+        "transform": {
+            "^.+\\.js$": "babel-jest"
+        }
+    }
 }
